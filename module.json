@@ -1,0 +1,31 @@
+{
+  "id": "lipatos-gm-only-currency-conversion",
+  "title": "LipatoS - Конвертация валюты только для ГМ",
+  "description": "Скрывает у обычных игроков вкладку и кнопку «Конвертация» в окне управления валютой D&D5e, оставляя «Передачу» доступной. У ГМ ничего не скрывается.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "LipatoS"
+    }
+  ],
+  "esmodules": ["main.js"],
+  "styles": ["style.css"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.1"
+        }
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-gm-only-currency-conversion/main/module.json",
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-gm-only-currency-conversion/main/lipatos-gm-only-currency-conversion-v1.0.0.zip"
+}
